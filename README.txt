@@ -14,17 +14,3 @@ El usuario va arrastrando los elementos de la parte izquierda al carrito.
 Cuando se añade al carrito se suma a la compra total el precio del nuevo componente añadido.
 El usuario puede quitar elementos de la cesta de la compra directamente con un  botón o arrastrando el componente de nuevo a su origen.
 Por lo tanto tendremos que usar como mínimo el Web API Drag and Drop además de las tecnologías utilizadas hasta ahora. 
-
-Mega reto
-
-Puedes plantear muchas modificaciones a partir del planteamiento inicial:
-
-Almacenar en el localStorage el carrito actual para poderlo recuperar una vez se vuelva a la página preguntando al usuario si quiere recuperarlo.
-Sustituir los componentes en formato texto por imágenes.
-Incluir incompatibilidades entre componentes, como por ejemplo entre placas y procesadores.
-¡ÁNIMO!
-
-.img {
-    position: relative; /* Permite que el flotante se posicione respecto a este contenedor */
-    display: inline-block; /* Para que ajuste según el tamaño de la imagen */
-}
